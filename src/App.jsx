@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Header from './components/Header.jsx';
 import { log } from './log.js';
 import Quiz from './components/Quiz.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   log('<App /> rendered');
@@ -24,9 +25,10 @@ function App() {
       <Header />
       <main>
       
-      <Quiz />
+      <Quiz       />
       
       </main>
+      <Footer/>
     </>
   );
 }
