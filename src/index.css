@@ -488,3 +488,14 @@ header h1 {
 #question-time{
   width: 90%;
 }
+
+footer {
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: #fff;  
+}
+footer a:hover{
+  color: #594276;  
+}
