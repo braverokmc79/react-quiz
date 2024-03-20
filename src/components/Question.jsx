@@ -22,7 +22,7 @@ const Question = ({
 
 
   if(answer.isCorrect !==null){
-    timer=2000;
+    timer=1000;
   }
 
 
@@ -41,7 +41,7 @@ const Question = ({
 
       setTimeout(() => {
         onSelectAnswer(answer);
-      }, 2000);
+      }, 1000);
     }, 1000);
   }
 
